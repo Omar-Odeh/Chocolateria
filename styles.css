@@ -1,0 +1,87 @@
+body {
+  margin: 0px;
+}
+.header-container {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  height: 156px;
+  width: 87.91666%;
+  padding: 0 6.04167%;
+  background: #FFFFFF;
+}
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.logo-container {
+  width: 26.85624%;
+}
+.logo-container > img {
+  width: 100%;
+}
+.tabs-container {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  width: 50.7109%;
+}
+.color-C4 {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  color: #c4c4c4;
+}
+.color-C4 > img {
+  width: 16px;
+}
+.social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  width: 160.17px;
+  height: 61px;
+  background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
+  border-radius: 10px;
+}
+.ig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 30.81px;
+  width: 30.76px;
+}
+.ig > .img1 {
+  width: 100%;
+}
+.ig > .img2 {
+  position: absolute;
+  height: 10.26px;
+  width: 10.26px;
+}
+.tw {
+  height: 32.8px;
+  width: 32.8px;
+}
+.tw > img {
+  width: 100%;
+}
+.fb {
+  height: 33.96px;
+  width: 34.16px;
+}
+.fb > img {
+  width: 100%;
+}
+.burger-menu {
+  display: none;
+}
