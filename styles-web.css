@@ -8,7 +8,7 @@ body {
   height: 156px;
   width: 87.91666%;
   padding: 0 6.04167%;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 .header-content {
   display: flex;
@@ -33,7 +33,7 @@ body {
   text-align: center;
   width: 50.7109%;
 }
-.tabs-container > div:hover{
+.tabs-container > div:hover {
   cursor: pointer;
 }
 .color-C4 {
@@ -55,7 +55,7 @@ body {
   background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
   border-radius: 10px;
 }
-.social-container > div:hover{
+.social-container > div:hover {
   cursor: pointer;
 }
 .ig {
@@ -90,4 +90,57 @@ body {
 }
 .burger-menu {
   display: none;
+}
+.main-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 162px;
+}
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 1440px;
+}
+.img-sliders-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 651px;
+  width: 87.152778%;
+}
+.img {
+  width: 100%;
+  height: 92.47312%;
+}
+.sliders-container {
+  display: flex;
+  justify-content: space-between;
+  width: 22.70916%;
+  height: 24px;
+}
+.slider1 {
+  width: 46.31579%;
+  height: 100%;
+  margin-right: 5.96491%;
+  background: #cf9246;
+  border-radius: 30px;
+}
+.slider2 {
+  width: 22.45614%;
+  height: 100%;
+  margin-right: 2.80702%;
+  box-sizing: border-box;
+  border: 2px solid #4e4e4e;
+  border-radius: 30px;
+}
+.slider3 {
+  width: 22.45614%;
+  height: 100%;
+  box-sizing: border-box;
+  border: 2px solid #4e4e4e;
+  border-radius: 30px;
 }

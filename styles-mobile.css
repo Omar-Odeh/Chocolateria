@@ -21,14 +21,45 @@
     width: 8%;
     height: 26px;
   }
-  .burger-menu:hover{
+  .burger-menu:hover {
     cursor: pointer;
   }
   .menu-bar {
     height: 1px;
     width: 66.66667%;
-    background: #D5904E;
-    border: 1px solid #D5904E;
+    background: #d5904e;
+    border: 1px solid #d5904e;
     border-radius: 2px;
+  }
+  .main-container {
+    padding-top: 94px;
+  }
+  .img-sliders-container {
+    height: 337px;
+    width: 86.83333%;
+  }
+  .img {
+    width: 100%;
+    height: 94.06528%;
+  }
+  .sliders-container {
+    width: 18.66667%;
+    height: 10px;
+  }
+  .slider1 {
+    width: 46.42857%;
+    margin-right: 6.25%;
+    border-radius: 11.9249px;
+  }
+  .slider2 {
+    width: 22.32143%;
+    margin-right: 2.67857%;
+    border: 0.794997px solid #4e4e4e;
+    border-radius: 11.9249px;
+  }
+  .slider3 {
+    width: 22.32143%;
+    border: 0.794997px solid #4e4e4e;
+    border-radius: 11.9249px;
   }
 }
