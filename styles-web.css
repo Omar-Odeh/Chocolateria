@@ -111,10 +111,13 @@ body {
   justify-content: space-between;
   height: 651px;
   width: 87.152778%;
+  margin-bottom: 60px;
 }
 .img {
   width: 100%;
   height: 92.47312%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 30px;
 }
 .sliders-container {
   display: flex;
@@ -122,25 +125,82 @@ body {
   width: 22.70916%;
   height: 24px;
 }
+.slider {
+  height: 100%;
+  width: 22.45614%;
+  box-sizing: border-box;
+  border: 2px solid #4e4e4e;
+  border-radius: 30px;
+}
 .slider1 {
   width: 46.31579%;
-  height: 100%;
   margin-right: 5.96491%;
   background: #cf9246;
+  border: unset;
   border-radius: 30px;
 }
 .slider2 {
-  width: 22.45614%;
-  height: 100%;
   margin-right: 2.80702%;
-  box-sizing: border-box;
-  border: 2px solid #4e4e4e;
-  border-radius: 30px;
 }
-.slider3 {
-  width: 22.45614%;
-  height: 100%;
-  box-sizing: border-box;
-  border: 2px solid #4e4e4e;
-  border-radius: 30px;
+.intro-card-container {
+  display: flex;
+  justify-content: space-between;
+  width: 82.63889%;
+  height: 550px;
+  padding-right: 14px;
+}
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 50.5042%;
+  height: 61.45454%;
+  margin-top: 101px;
+}
+.title {
+  height: 168px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 84px;
+}
+.description {
+  height: 90px;
+  width: 79.86689%;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #707070;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 217px;
+  height: 56px;
+  background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
+  border-radius: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  color: #ffffff;
+}
+.button:hover {
+  cursor: pointer;
+}
+.cards-container {
+}
+.card {
+}
+.card1 {
+}
+.card2 {
+}
+.card3 {
 }
