@@ -9,6 +9,7 @@ body {
   width: 87.91666%;
   padding: 0 6.04167%;
   background: #ffffff;
+  z-index: 4;
 }
 .header-content {
   display: flex;
@@ -132,6 +133,9 @@ body {
   border: 2px solid #4e4e4e;
   border-radius: 30px;
 }
+.slider:hover {
+  cursor: pointer;
+}
 .slider1 {
   width: 46.31579%;
   margin-right: 5.96491%;
@@ -148,26 +152,31 @@ body {
   width: 82.63889%;
   height: 550px;
   padding-right: 14px;
+  margin-bottom: 58px;
 }
 .intro-container {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 50.5042%;
-  height: 61.45454%;
+  height: 338px;
   margin-top: 101px;
 }
 .title {
-  height: 168px;
+  height: 84px;
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
   line-height: 84px;
 }
+.intro-container > .title{
+  width: 100%;
+  height: 168px;
+}
 .description {
-  height: 90px;
   width: 79.86689%;
+  height: 90px;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -179,7 +188,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 217px;
   height: 56px;
   background: linear-gradient(99.11deg, #d5904e -12.56%, #7d5d3f 158.17%);
   border-radius: 10px;
@@ -191,16 +199,37 @@ body {
   text-align: center;
   color: #ffffff;
 }
+.intro-container > .button {
+  width: 36.10649%;
+}
 .button:hover {
   cursor: pointer;
 }
 .cards-container {
+  width: 46.63865%;
+  height: 100%;
+  position: relative;
 }
 .card {
+  width: 49.54955%;
+  height: 66.72727%;
+}
+.card > img{
+  width: 100%;
+  height: 100%;
 }
 .card1 {
+  z-index: 1;
 }
 .card2 {
+  position: absolute;
+  right: 25.76576%;
+  bottom: 17.09091%;
+  z-index: 2;
 }
 .card3 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
 }

@@ -64,4 +64,46 @@
   .slider2 {
     margin-right: 2.67857%;
   }
+  .intro-card-container {
+    flex-direction: column;
+    width: 87%;
+    height: 815px;
+    padding-right: 0;
+    margin-bottom: 7px;
+  }
+  .intro-container {
+    width: 92.52873%;
+    height: 274px;
+    margin-top: 0px;
+  }
+  .intro-container > .title {
+    height: 136px;
+    font-size: 45px;
+    line-height: 68px;
+  }
+  .intro-container > .description {
+    width: 385.98px;
+    height: 73px;
+    font-size: 16.0825px;
+    line-height: 24px;
+  }
+  .intro-container > .button {
+    width: 175.08px;
+    height: 45px;
+    border-radius: 8.04125px;
+    font-size: 19.299px;
+    line-height: 29px;
+  }
+  .cards-container {
+    width: 100.95785%;
+    height: 514px;
+  }
+  .card {
+    width: 49.52562%;
+    height: 67.89883%;
+  }
+  .card2 {
+    right: 25.80645%;
+    bottom: 17.31517%;
+  }
 }
