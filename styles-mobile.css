@@ -153,4 +153,50 @@
   .menu-container > .button {
     width: 40.26717%;
   }
+  .services-container {
+    width: 83.16667%;
+    margin-left: 0;
+    margin-right: 3.83333%;
+    margin-bottom: 68px;
+  }
+  .services-content {
+    align-items: unset;
+    text-align: unset;
+  }
+  .services-content > .title {
+    margin-bottom: 10px;
+  }
+  .services-content > .description {
+    width: 100%;
+    height: 90px;
+  }
+  .services-cards-container {
+    flex-direction: column;
+    height: 818px;
+    width: 96.79359%;
+  }
+  .service-card1 {
+    width: 96.68737%;
+    height: 22.24939%;
+  }
+  .service-card2 {
+    width: 95.03105%;
+    height: 24.20538%;
+  }
+  .service-card3 {
+    width: 100%;
+    height: 29.09535%;
+  }
+  .partner-container {
+    width: 87%;
+    height: 627px;
+    margin-bottom: 822px;
+  }
+  .partner-container > .title {
+    margin-bottom: 22px;
+  }
+  .partner-container > img {
+    width: 88.31418%;
+    height: 521px;
+  }
 }
